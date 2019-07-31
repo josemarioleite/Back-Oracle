@@ -1,0 +1,7 @@
+Criar Tabela do Usuário: CREATE TABLE usersPesquisa (
+            id NUMBER(10) PRIMARY KEY AUTO_INCREMENT,
+            name VARCHAR(20) NOT NULL,
+            password VARCHAR(20) NOT NULL,
+            codfilial NUMBER(5) NOT NULL,s
+            codsetor NUMBER(5) NOT NULL
+        )
