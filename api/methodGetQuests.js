@@ -4,7 +4,7 @@ const dbConfig = require('../config/dbconfig')
 module.exports = app => {
     const getter = function (req, res, next) {
         const todo = req.params
-        const getQuest = `select PERGUNTA from your-table-quests where CODSETOR = :CODSETOR`
+        const getQuest = `select COLUMN-YOUT-TABLE from your-table-quests where CODSETOR = :CODSETOR`
         const connect = oracledb.getConnection(dbConfig, function (getError, conn) {
             if (getError) {
                 next(getError.message)
